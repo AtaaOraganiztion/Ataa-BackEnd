@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UiDK3XTo1++IGL2IDBfLXz6GgZSTb9zwn3AZvbmOc9w=",
+  "Hash": "i4V1QfadkjIjYz+8gOIX8idgAYZWCzYDvifzFN3BSOc=",
   "Source": "Web.Api",
   "BasePath": "_content/Web.Api",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Web.Api\\wwwroot",
       "Source": "Web.Api",
-      "ContentRoot": "D:\\BootCamp\\Rafed-BackEnd\\Web.Api\\wwwroot\\",
+      "ContentRoot": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\",
       "BasePath": "_content/Web.Api",
       "Pattern": "**"
     }
