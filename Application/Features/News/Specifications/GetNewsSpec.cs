@@ -22,7 +22,5 @@ public class GetNewsSpec : Specification<Domain.Models.News.Entities.News>
         {
             Query.Where(x => x.Qoute.Contains(newsFilter.Qoute));
         }
-     
-        
     }
 }

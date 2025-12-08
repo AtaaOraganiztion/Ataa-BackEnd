@@ -12,7 +12,11 @@ public class NewsProfile : Profile
     {
         CreateMap<AddNewsCommand, Domain.Models.News.Entities.News>()
             .ForMember(dest => dest.Id, opt => opt.MapFrom(src => Ulid.NewUlid()))
+            .ForMember(dest => dest.ImageUrl, opt => opt.Ignore())
             .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => false));
+        
+        CreateMap<Domain.Models.News.Entities.News,AddNewsCommand>()
+            .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<NewsUrlResolver>());
         CreateMap<AddNewsCommand, Section>()
             .ForMember(dest => dest.Id, opt => opt.MapFrom(src => Ulid.NewUlid()))
             .ForMember(dest => dest.NewsId, opt => opt.Ignore())

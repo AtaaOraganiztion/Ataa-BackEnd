@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Gallery\\5a80bd88-2e6f-4140-9e31-1a9b106ed24e.jpeg",
+      "PackagePath": "staticwebassets\\Gallery\\5a80bd88-2e6f-4140-9e31-1a9b106ed24e.jpeg"
+    },
+    {
+      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG",
+      "PackagePath": "staticwebassets\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG"
+    },
+    {
+      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\79c8b96c-ef43-411a-aac0-59b2041f612f.JPG",
+      "PackagePath": "staticwebassets\\Services\\79c8b96c-ef43-411a-aac0-59b2041f612f.JPG"
+    },
+    {
+      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\d9e58e1f-5b49-474e-9bf5-9d5c04b0392c.jpeg",
+      "PackagePath": "staticwebassets\\Services\\d9e58e1f-5b49-474e-9bf5-9d5c04b0392c.jpeg"
+    },
+    {
+      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\ec25cb71-fd3b-4de2-9a8f-7cda7f3e62f4.JPG",
+      "PackagePath": "staticwebassets\\Services\\ec25cb71-fd3b-4de2-9a8f-7cda7f3e62f4.JPG"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Web.Api.props",
+      "PackagePath": "build\\Web.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.Api.props",
+      "PackagePath": "buildMultiTargeting\\Web.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Web.Api.props",
+      "PackagePath": "buildTransitive\\Web.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
