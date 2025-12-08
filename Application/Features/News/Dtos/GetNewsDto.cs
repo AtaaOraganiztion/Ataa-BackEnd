@@ -5,6 +5,7 @@ public record GetNewsDto(
     string? Title,
     string? Description,
     string? Category,
+    string? Content,
     string? ImageUrl,
     string? Qoute
     );

@@ -34,6 +34,11 @@ namespace Infrastructure.Database.Migrations
                         .HasColumnType("nvarchar(450)")
                         .HasColumnName("category");
 
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("content");
+
                     b.Property<string>("CreatedBy")
                         .IsRequired()
                         .HasMaxLength(26)
@@ -167,6 +172,80 @@ namespace Infrastructure.Database.Migrations
                         .HasDatabaseName("ix_sections_news_id");
 
                     b.ToTable("Sections", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Models.Opinions.Entities.Opinions", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("id");
+
+                    b.Property<string>("AvatarKey")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("avatar_key");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("content");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_on_utc");
+
+                    b.Property<DateTime>("DeletedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("deleted_on_utc");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("LastModifiedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("last_modified_by");
+
+                    b.Property<DateTime>("LastModifiedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("last_modified_on_utc");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("name");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("int")
+                        .HasColumnName("rating");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("role");
+
+                    b.HasKey("Id")
+                        .HasName("pk_opinions");
+
+                    b.HasIndex("Name")
+                        .HasDatabaseName("ix_opinions_name");
+
+                    b.HasIndex("Rating")
+                        .HasDatabaseName("ix_opinions_rating");
+
+                    b.HasIndex("Role")
+                        .HasDatabaseName("ix_opinions_role");
+
+                    b.ToTable("Opinions", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.Services.Entities.Features", b =>

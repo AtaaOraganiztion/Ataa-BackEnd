@@ -3263,3 +3263,21 @@ System.Collections.Generic.List`1[[Domain.Models.Services.Entities.Features, Dom
 2025-12-08 15:26:19.960 +02:00 [INF] Processing request AddGalleryCommand
 2025-12-08 15:26:20.502 +02:00 [INF] Completed request AddGalleryCommand
 2025-12-08 15:26:20.520 +02:00 [INF] HTTP POST /Api/V1/Gallery/Add responded 201 in 641.4642 ms
+2025-12-08 16:25:03.637 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-08 16:26:37.292 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-08 16:26:37.309 +02:00 [INF] Processing request AddOpinionsCommand
+2025-12-08 16:26:37.651 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-08 16:26:38.396 +02:00 [INF] Completed request AddOpinionsCommand
+2025-12-08 16:26:38.454 +02:00 [INF] HTTP POST /Api/V1/Opinions/Add responded 201 in 1403.5698 ms
+2025-12-08 16:26:57.479 +02:00 [INF] Processing request UpdateOpinionsCommand
+2025-12-08 16:26:58.321 +02:00 [INF] Completed request UpdateOpinionsCommand
+2025-12-08 16:26:58.329 +02:00 [INF] HTTP PUT /Api/V1/Opinions/01KBZ5PWZMM8R1576FC296BZBC responded 200 in 920.3168 ms
+2025-12-08 16:27:07.319 +02:00 [INF] Processing request GetOpinionsQuery
+2025-12-08 16:27:07.371 +02:00 [INF] Completed request GetOpinionsQuery
+2025-12-08 16:27:07.399 +02:00 [INF] HTTP GET /Api/V1/Opinions/Get-All responded 200 in 96.3323 ms
+2025-12-08 16:27:16.402 +02:00 [INF] Processing request GetOpinionsQuery
+2025-12-08 16:27:16.428 +02:00 [INF] Completed request GetOpinionsQuery
+2025-12-08 16:27:16.431 +02:00 [INF] HTTP GET /Api/V1/Opinions/Get-All responded 200 in 39.9992 ms
+2025-12-08 16:27:26.495 +02:00 [INF] Processing request DeleteOpinionsCommand
+2025-12-08 16:27:26.526 +02:00 [INF] Completed request DeleteOpinionsCommand
+2025-12-08 16:27:26.530 +02:00 [INF] HTTP DELETE /Api/V1/Opinions/01KBZ5PWZMM8R1576FC296BZBC responded 200 in 46.9100 ms

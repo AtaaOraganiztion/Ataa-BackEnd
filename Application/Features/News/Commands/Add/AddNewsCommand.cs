@@ -8,6 +8,7 @@ namespace Application.Features.News.Commands.Add;
 public record AddNewsCommand( string Title,
  string Description,
  string Category,
+ string Content,
  string? ImageUrl,
  IFormFile ? ImageFile,
  string? Qoute,
