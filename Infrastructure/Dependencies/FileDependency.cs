@@ -12,6 +12,7 @@ public static class FileDependency
     {
         services.AddSingleton(services.AddSingleton(configuration.GetSection("Server").Get<ServerSetting>()!));
         services.AddScoped<IFileService, FileService>();
+        services.AddScoped<IUploadImage, UploadImage>();
 
         return services;
     }

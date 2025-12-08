@@ -98,7 +98,6 @@ namespace Infrastructure.Database.Migrations
                         .HasDatabaseName("ix_news_qoute");
 
                     b.HasIndex("Title")
-                        .IsUnique()
                         .HasDatabaseName("ix_news_title");
 
                     b.ToTable("News", (string)null);
@@ -170,6 +169,266 @@ namespace Infrastructure.Database.Migrations
                     b.ToTable("Sections", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Models.Services.Entities.Features", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("id");
+
+                    b.Property<string>("Benifit")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("benifit");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_on_utc");
+
+                    b.Property<DateTime>("DeletedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("deleted_on_utc");
+
+                    b.Property<string>("Desc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("desc");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("LastModifiedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("last_modified_by");
+
+                    b.Property<DateTime>("LastModifiedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("last_modified_on_utc");
+
+                    b.Property<string>("ServiceId")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("service_id");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("title");
+
+                    b.HasKey("Id")
+                        .HasName("pk_features");
+
+                    b.HasIndex("Benifit")
+                        .HasDatabaseName("ix_features_benifit");
+
+                    b.HasIndex("ServiceId")
+                        .HasDatabaseName("ix_features_service_id");
+
+                    b.HasIndex("Title")
+                        .HasDatabaseName("ix_features_title");
+
+                    b.ToTable("Features", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Models.Services.Entities.Gallery", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("id");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_on_utc");
+
+                    b.Property<DateTime>("DeletedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("deleted_on_utc");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("image_url");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("LastModifiedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("last_modified_by");
+
+                    b.Property<DateTime>("LastModifiedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("last_modified_on_utc");
+
+                    b.Property<string>("ServiceId")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("service_id");
+
+                    b.HasKey("Id")
+                        .HasName("pk_gallery");
+
+                    b.HasIndex("ImageUrl")
+                        .HasDatabaseName("ix_gallery_image_url");
+
+                    b.HasIndex("ServiceId")
+                        .HasDatabaseName("ix_gallery_service_id");
+
+                    b.ToTable("Gallery", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Models.Services.Entities.Services", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("id");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_on_utc");
+
+                    b.Property<DateTime>("DeletedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("deleted_on_utc");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("LastModifiedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("last_modified_by");
+
+                    b.Property<DateTime>("LastModifiedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("last_modified_on_utc");
+
+                    b.Property<string>("LongDesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("long_desc");
+
+                    b.Property<string>("MainImage")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("main_image");
+
+                    b.Property<string>("ShortDesc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("short_desc");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("title");
+
+                    b.HasKey("Id")
+                        .HasName("pk_services");
+
+                    b.HasIndex("ShortDesc")
+                        .HasDatabaseName("ix_services_short_desc");
+
+                    b.HasIndex("Title")
+                        .HasDatabaseName("ix_services_title");
+
+                    b.ToTable("Services", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Models.Services.Entities.Statics", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("id");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_on_utc");
+
+                    b.Property<DateTime>("DeletedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("deleted_on_utc");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("LastModifiedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("last_modified_by");
+
+                    b.Property<DateTime>("LastModifiedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("last_modified_on_utc");
+
+                    b.Property<int>("Number")
+                        .HasColumnType("int")
+                        .HasColumnName("number");
+
+                    b.Property<string>("ServiceId")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("service_id");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("title");
+
+                    b.HasKey("Id")
+                        .HasName("pk_statics");
+
+                    b.HasIndex("Number")
+                        .HasDatabaseName("ix_statics_number");
+
+                    b.HasIndex("ServiceId")
+                        .HasDatabaseName("ix_statics_service_id");
+
+                    b.HasIndex("Title")
+                        .HasDatabaseName("ix_statics_title");
+
+                    b.ToTable("Statics", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Models.News.Entities.Section", b =>
                 {
                     b.HasOne("Domain.Models.News.Entities.News", "News")
@@ -182,9 +441,54 @@ namespace Infrastructure.Database.Migrations
                     b.Navigation("News");
                 });
 
+            modelBuilder.Entity("Domain.Models.Services.Entities.Features", b =>
+                {
+                    b.HasOne("Domain.Models.Services.Entities.Services", "Services")
+                        .WithMany("Features")
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_features_services_service_id");
+
+                    b.Navigation("Services");
+                });
+
+            modelBuilder.Entity("Domain.Models.Services.Entities.Gallery", b =>
+                {
+                    b.HasOne("Domain.Models.Services.Entities.Services", "Services")
+                        .WithMany("GalleryImages")
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_gallery_services_service_id");
+
+                    b.Navigation("Services");
+                });
+
+            modelBuilder.Entity("Domain.Models.Services.Entities.Statics", b =>
+                {
+                    b.HasOne("Domain.Models.Services.Entities.Services", "Services")
+                        .WithMany("Statics")
+                        .HasForeignKey("ServiceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_statics_services_service_id");
+
+                    b.Navigation("Services");
+                });
+
             modelBuilder.Entity("Domain.Models.News.Entities.News", b =>
                 {
                     b.Navigation("Sections");
+                });
+
+            modelBuilder.Entity("Domain.Models.Services.Entities.Services", b =>
+                {
+                    b.Navigation("Features");
+
+                    b.Navigation("GalleryImages");
+
+                    b.Navigation("Statics");
                 });
 #pragma warning restore 612, 618
         }

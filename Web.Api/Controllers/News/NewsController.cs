@@ -16,7 +16,7 @@ namespace Web.Api.Controllers.News;
 public class NewsController : ApiBaseController
 {
     [HttpPost(Router.NewsRouter.Add)]
-    public async Task<IActionResult> AddNews(AddNewsCommand request)
+    public async Task<IActionResult> AddNews([FromForm]AddNewsCommand request)
     {
         Result<Ulid> result = await mediator.Send(request);
         return result.ToCreatedActionResult();
@@ -31,7 +31,7 @@ public class NewsController : ApiBaseController
     }
     
     [HttpPut(Router.NewsRouter.Update)]
-    public async Task<IActionResult> UpdateNews(Ulid id, [FromBody] UpdateNewsDto request)
+    public async Task<IActionResult> UpdateNews(Ulid id, [FromForm] UpdateNewsDto request)
     {
         Result<Ulid> result = await mediator.Send(new UpdateNewsCommand(id, request));
         return result.ToActionResult();
