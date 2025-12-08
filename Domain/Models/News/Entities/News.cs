@@ -10,6 +10,7 @@ public class News : Entity,IAuditableEntity,ISoftDeletableEntity
     public string Category { get; set; } = null!;
     public string? ImageUrl { get; set; }
     public string Qoute { get; set; } = null!;
+    public string Content { get; set; } = null!;
     public DateTime PublishedOnUtc { get; set; } = DateTime.Now;
     public List<Section> Sections { get; set; } = new();
     
