@@ -1,4 +1,4 @@
-﻿namespace Application.Features.News.Dtos;
+﻿namespace Application.Features.Services.Dtos;
 
 public record GetServicesDto(
     Ulid? Id,

@@ -1,5 +1,6 @@
 ﻿using Application.Features.News.Dtos;
 using Application.Features.Services.Commands.Add;
+using Application.Features.Services.Commands.Delete;
 using Application.Features.Services.Dtos;
 using AutoMapper;
 
@@ -22,5 +23,8 @@ public class ServicesProfile : Profile
         
         CreateMap<Domain.Models.Services.Entities.Services, GetServicesDto>();
         CreateMap<GetServicesDto, Domain.Models.Services.Entities.Services>();
+        
+        CreateMap<DeleteServicesCommand,Domain.Models.Services.Entities.Services>()
+            .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => true));
     }
 }

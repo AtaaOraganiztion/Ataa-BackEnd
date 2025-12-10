@@ -2,6 +2,7 @@
 using Application.Abstractions.Repositories;
 using Application.Features.News.Dtos;
 using Application.Features.News.Specifications;
+using Application.Features.Services.Dtos;
 using Application.Features.Services.Specifications;
 using AutoMapper;
 using SharedKernel;

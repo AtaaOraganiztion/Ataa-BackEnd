@@ -1,4 +1,5 @@
 ﻿using Application.Features.Features.Commands.Add;
+using Application.Features.Features.Commands.Delete;
 using Application.Features.Features.Dtos;
 using Application.Features.Services.Commands.Add;
 using Application.Features.Services.Dtos;
@@ -19,5 +20,8 @@ public class FeaturesProfile : Profile
         
         CreateMap<Domain.Models.Services.Entities.Features, GetFeaturesDto>();
         CreateMap<GetFeaturesDto, Domain.Models.Services.Entities.Features>();
+        
+        CreateMap<DeleteFeaturesCommand,Domain.Models.Services.Entities.Features>()
+            .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => true));
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Application.Features.Opinions.Commands.Add;
+using Application.Features.Opinions.Commands.Delete;
 using Application.Features.Opinions.Dtos;
 using AutoMapper;
 
@@ -17,5 +18,8 @@ public class OpinionsProfile : Profile
         
         CreateMap<Domain.Models.Opinions.Entities.Opinions, GetOpinionsDto>();
         CreateMap<GetOpinionsDto, Domain.Models.Opinions.Entities.Opinions>();
+        
+        CreateMap<DeleteOpinionsCommand,Domain.Models.Opinions.Entities.Opinions>()
+            .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => true));
     }
 }

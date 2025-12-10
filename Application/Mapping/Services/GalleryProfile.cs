@@ -1,4 +1,5 @@
 ﻿using Application.Features.Gallery.Commands.Add;
+using Application.Features.Gallery.Commands.Delete;
 using Application.Features.Gallery.Dtos;
 using AutoMapper;
 
@@ -17,8 +18,15 @@ public class GalleryProfile : Profile
             .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<GalleryUrlResolver>());
          
 
+        CreateMap<UpdateGalleryDto, Domain.Models.Services.Entities.Gallery>()
+            .ForMember(dest => dest.Id, opt => opt.Ignore())
+            .ForMember(dest => dest.ServiceId, opt => opt.Ignore());
+        CreateMap<Domain.Models.Services.Entities.Services, UpdateGalleryDto>();
         
         CreateMap<Domain.Models.Services.Entities.Gallery, GetGalleryDto>();
         CreateMap<GetGalleryDto, Domain.Models.Services.Entities.Gallery>();
+        
+        CreateMap<DeleteGalleryCommand,Domain.Models.Services.Entities.Gallery>()
+            .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => true));
     }
 }
