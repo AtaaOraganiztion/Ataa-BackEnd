@@ -8,6 +8,7 @@ using Application.Features.Sections.Commands.Delete;
 using Application.Features.Sections.Commands.Update;
 using Application.Features.Sections.Dtos;
 using Application.Features.Sections.Queries.GetAll;
+using Application.Features.Sections.Queries.GetById;
 using Domain.Routing.BaseRouter;
 using Microsoft.AspNetCore.Mvc;
 using SharedKernel;
@@ -44,6 +45,12 @@ public class SectionsController : ApiBaseController
     public async Task<IActionResult> GetAllSections([FromQuery] SectionsDto request)
     {
         Result<List<GetSectionsDto>> result = await mediator.Send(new GetSectionQuery(request));
+        return result.ToActionResult();
+    }
+    [HttpGet(Router.SectionsRouter.GetById)]
+    public async Task<IActionResult> GetSectionsById([FromRoute] Ulid id)
+    {
+        Result<GetSectionsDto> result = await mediator.Send(new GetSectionsByIdQuery(id));
         return result.ToActionResult();
     }
 }

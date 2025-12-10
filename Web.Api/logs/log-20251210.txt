@@ -531,3 +531,462 @@ Application.Features.Gallery.Dtos.UpdateGalleryDto -> Domain.Models.Services.Ent
 2025-12-10 17:56:28.109 +02:00 [INF] Processing request GetStaticsQuery
 2025-12-10 17:56:28.139 +02:00 [INF] Completed request GetStaticsQuery
 2025-12-10 17:56:28.151 +02:00 [INF] HTTP GET /Api/V1/Statics/Get-All responded 200 in 51.4771 ms
+2025-12-10 20:54:04.860 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 20:54:25.066 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 20:54:25.099 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 20:54:25.466 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 20:54:26.919 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 20:54:26.967 +02:00 [ERR] Unhandled exception occurred: ArgumentException
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 20:54:27.023 +02:00 [INF] HTTP GET /Api/V1/News/01KC4AT0MR609BBMAQQC0XTNKT responded 400 in 2140.5257 ms
+2025-12-10 20:59:08.479 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 20:59:08.838 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 20:59:08.857 +02:00 [ERR] Unhandled exception occurred: ArgumentException
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 20:59:08.877 +02:00 [INF] HTTP GET /Api/V1/News/01KC4AT0MR609BBMAQQC0XTNKT responded 400 in 401.5457 ms
+2025-12-10 20:59:31.987 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 20:59:32.229 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 20:59:32.247 +02:00 [ERR] Unhandled exception occurred: ArgumentException
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 20:59:32.264 +02:00 [INF] HTTP GET /Api/V1/News/01KC4AT0MR609BBMAQQC0XTNKT responded 400 in 283.8314 ms
+2025-12-10 20:59:50.627 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 21:02:21.924 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:02:21.941 +02:00 [ERR] Unhandled exception occurred: ArgumentException
+System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method98(Closure, Object, GetNewsDto, ResolutionContext)
+   at AutoMapper.Mapper.MapCore[TSource,TDestination](TSource source, TDestination destination, ResolutionContext context, Type sourceType, Type destinationType, MemberMap memberMap)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source, TDestination destination)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Application.Features.News.Queries.GetById.GetNewsByIdQueryHandler.Handle(GetNewsByIdQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetById\GetNewsByIdQueryHandler.cs:line 20
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetNewsById(Ulid id) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:02:21.958 +02:00 [INF] HTTP GET /Api/V1/News/01KC4AT0MR609BBMAQQC0XTNKT responded 400 in 151332.9664 ms
+2025-12-10 21:04:04.428 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 21:21:19.703 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 21:21:31.820 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:21:31.834 +02:00 [INF] Processing request GetNewsQuery
+2025-12-10 21:21:32.151 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:21:33.437 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Domain.Models.News.Entities.News, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Application.Features.News.Dtos.GetNewsDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   at Application.Features.News.Queries.GetAll.GetNewsQueryHandler.Handle(GetNewsQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetAll\GetNewsQueryHandler.cs:line 18
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetAllNews(NewsFilter request) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:21:33.484 +02:00 [ERR] Unhandled exception occurred: AutoMapperMappingException
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Domain.Models.News.Entities.News, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Application.Features.News.Dtos.GetNewsDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   at Application.Features.News.Queries.GetAll.GetNewsQueryHandler.Handle(GetNewsQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetAll\GetNewsQueryHandler.cs:line 18
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetAllNews(NewsFilter request) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:21:33.538 +02:00 [ERR] HTTP GET /Api/V1/News/Get-All responded 500 in 1939.8455 ms
+2025-12-10 21:21:59.835 +02:00 [INF] Processing request AddNewsCommand
+2025-12-10 21:22:00.281 +02:00 [INF] Completed request AddNewsCommand
+2025-12-10 21:22:00.314 +02:00 [INF] HTTP POST /Api/V1/News/Add responded 201 in 613.0622 ms
+2025-12-10 21:22:33.158 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 21:23:15.323 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 21:23:21.326 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:23:21.360 +02:00 [INF] Processing request GetNewsQuery
+2025-12-10 21:23:21.724 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:23:23.019 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Domain.Models.News.Entities.News, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Application.Features.News.Dtos.GetNewsDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   at Application.Features.News.Queries.GetAll.GetNewsQueryHandler.Handle(GetNewsQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetAll\GetNewsQueryHandler.cs:line 18
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetAllNews(NewsFilter request) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:23:23.065 +02:00 [ERR] Unhandled exception occurred: AutoMapperMappingException
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Domain.Models.News.Entities.News, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Application.Features.News.Dtos.GetNewsDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   at Application.Features.News.Queries.GetAll.GetNewsQueryHandler.Handle(GetNewsQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetAll\GetNewsQueryHandler.cs:line 18
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetAllNews(NewsFilter request) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:23:23.121 +02:00 [ERR] HTTP GET /Api/V1/News/Get-All responded 500 in 1989.1015 ms
+2025-12-10 21:23:46.255 +02:00 [INF] Processing request GetNewsQuery
+2025-12-10 21:25:02.282 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Domain.Models.News.Entities.News, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Application.Features.News.Dtos.GetNewsDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   at Application.Features.News.Queries.GetAll.GetNewsQueryHandler.Handle(GetNewsQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetAll\GetNewsQueryHandler.cs:line 18
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetAllNews(NewsFilter request) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:25:02.303 +02:00 [ERR] Unhandled exception occurred: AutoMapperMappingException
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Domain.Models.News.Entities.News, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Application.Features.News.Dtos.GetNewsDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+ ---> System.ArgumentException: Application.Features.News.Dtos.GetNewsDto needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   --- End of inner exception stack trace ---
+   at lambda_method97(Closure, Object, List`1, ResolutionContext)
+   at Application.Features.News.Queries.GetAll.GetNewsQueryHandler.Handle(GetNewsQuery request, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Features\News\Queries\GetAll\GetNewsQueryHandler.cs:line 18
+   at Application.Abstractions.Behaviors.UnitOfWorkBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\UnitOfWorkBehavior.cs:line 15
+   at Application.Abstractions.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\ValidationPipelineBehavior.cs:line 25
+   at Application.Abstractions.Behaviors.RequestLoggingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Application\Abstractions\Behaviors\RequestLoggingPipelineBehavior.cs:line 23
+   at Web.Api.Controllers.News.NewsController.GetAllNews(NewsFilter request) in D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\Controllers\News\NewsController.cs:line 44
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-12-10 21:25:02.324 +02:00 [ERR] HTTP GET /Api/V1/News/Get-All responded 500 in 76072.0960 ms
+2025-12-10 21:25:07.515 +02:00 [INF] Processing request GetOpinionsQuery
+2025-12-10 21:25:07.546 +02:00 [INF] Completed request GetOpinionsQuery
+2025-12-10 21:25:07.587 +02:00 [INF] HTTP GET /Api/V1/Opinions/Get-All responded 200 in 89.8474 ms
+2025-12-10 21:25:12.869 +02:00 [INF] Processing request GetSectionQuery
+2025-12-10 21:25:12.911 +02:00 [INF] Completed request GetSectionQuery
+2025-12-10 21:25:12.941 +02:00 [INF] HTTP GET /Api/V1/Sections/Get-All responded 200 in 82.7154 ms
+2025-12-10 21:25:52.226 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 21:25:59.321 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:25:59.341 +02:00 [INF] Processing request GetNewsQuery
+2025-12-10 21:25:59.700 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:26:09.566 +02:00 [INF] Completed request GetNewsQuery
+2025-12-10 21:26:09.660 +02:00 [INF] HTTP GET /Api/V1/News/Get-All responded 200 in 10527.8489 ms
+2025-12-10 21:26:45.617 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 21:26:56.202 +02:00 [INF] Completed request GetNewsByIdQuery
+2025-12-10 21:26:56.212 +02:00 [INF] HTTP GET /Api/V1/News/01KC4AT0MR609BBMAQQC0XTNKT responded 200 in 10629.3673 ms
+2025-12-10 21:28:48.771 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 21:28:59.119 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:28:59.136 +02:00 [INF] Processing request GetNewsQuery
+2025-12-10 21:28:59.479 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:29:05.031 +02:00 [INF] Completed request GetNewsQuery
+2025-12-10 21:29:05.124 +02:00 [INF] HTTP GET /Api/V1/News/Get-All responded 200 in 6201.0096 ms
+2025-12-10 21:30:16.580 +02:00 [INF] Processing request GetNewsByIdQuery
+2025-12-10 21:30:21.149 +02:00 [INF] Completed request GetNewsByIdQuery
+2025-12-10 21:30:21.153 +02:00 [INF] HTTP GET /Api/V1/News/01KC4VD5SYQET4Z40RWX96R10G responded 200 in 4611.3046 ms
+2025-12-10 21:35:26.790 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 21:35:27.901 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Api/V1/News/{id}" for actions - Web.Api.Controllers.News.NewsController.GetNewsById (Web.Api),Web.Api.Controllers.ServicesController.ServicesController.GetServicesById (Web.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-10 21:35:34.411 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Api/V1/News/{id}" for actions - Web.Api.Controllers.News.NewsController.GetNewsById (Web.Api),Web.Api.Controllers.ServicesController.ServicesController.GetServicesById (Web.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-10 21:37:17.108 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 21:37:18.147 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Api/V1/News/{id}" for actions - Web.Api.Controllers.News.NewsController.GetNewsById (Web.Api),Web.Api.Controllers.ServicesController.ServicesController.GetServicesById (Web.Api). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-10 21:38:05.219 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 21:38:16.193 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:38:16.209 +02:00 [INF] Processing request GetServicesQuery
+2025-12-10 21:38:16.543 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 21:38:17.335 +02:00 [INF] Completed request GetServicesQuery
+2025-12-10 21:38:17.427 +02:00 [INF] HTTP GET /Api/V1/Services/Get-All responded 200 in 1417.9654 ms
+2025-12-10 21:38:24.364 +02:00 [INF] Processing request GetServicesByIdQuery
+2025-12-10 21:38:24.582 +02:00 [INF] Completed request GetServicesByIdQuery
+2025-12-10 21:38:24.587 +02:00 [INF] HTTP GET /Api/V1/Services/01KBYVDS36XEA9QREXJ0GMJ7WV responded 200 in 263.1650 ms
+2025-12-10 22:04:04.376 +02:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2025-12-10 22:04:12.475 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 22:04:12.487 +02:00 [INF] Processing request GetFeaturesQuery
+2025-12-10 22:04:12.807 +02:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-12-10 22:04:13.612 +02:00 [INF] Completed request GetFeaturesQuery
+2025-12-10 22:04:13.689 +02:00 [INF] HTTP GET /Api/V1/Features/Get-All responded 200 in 1399.1390 ms
+2025-12-10 22:04:20.670 +02:00 [INF] Processing request GetFeaturesByIdQuery
+2025-12-10 22:04:20.881 +02:00 [INF] Completed request GetFeaturesByIdQuery
+2025-12-10 22:04:20.885 +02:00 [INF] HTTP GET /Api/V1/Features/01KBYZ3QXADDX4RDNQZTMF93QC responded 200 in 241.3254 ms
+2025-12-10 22:04:28.597 +02:00 [INF] Processing request GetGalleryQuery
+2025-12-10 22:04:28.631 +02:00 [INF] Completed request GetGalleryQuery
+2025-12-10 22:04:28.643 +02:00 [INF] HTTP GET /Api/V1/Gallery/Get-All responded 200 in 56.1177 ms
+2025-12-10 22:04:35.631 +02:00 [INF] Processing request GetGalleryByIdQuery
+2025-12-10 22:04:35.651 +02:00 [INF] Completed request GetGalleryByIdQuery
+2025-12-10 22:04:35.655 +02:00 [INF] HTTP GET /Api/V1/Gallery/01KBZ28G38QXWARR4GMMFB5RAF responded 200 in 32.1771 ms
+2025-12-10 22:04:45.144 +02:00 [INF] Processing request GetOpinionsQuery
+2025-12-10 22:04:45.165 +02:00 [INF] Completed request GetOpinionsQuery
+2025-12-10 22:04:45.176 +02:00 [INF] HTTP GET /Api/V1/Opinions/Get-All responded 200 in 39.8447 ms
+2025-12-10 22:04:53.442 +02:00 [INF] Processing request AddOpinionsCommand
+2025-12-10 22:04:53.873 +02:00 [INF] Completed request AddOpinionsCommand
+2025-12-10 22:04:53.888 +02:00 [INF] HTTP POST /Api/V1/Opinions/Add responded 201 in 471.5409 ms
+2025-12-10 22:04:58.387 +02:00 [INF] Processing request GetOpinionsQuery
+2025-12-10 22:04:58.403 +02:00 [INF] Completed request GetOpinionsQuery
+2025-12-10 22:04:58.411 +02:00 [INF] HTTP GET /Api/V1/Opinions/Get-All responded 200 in 25.4995 ms

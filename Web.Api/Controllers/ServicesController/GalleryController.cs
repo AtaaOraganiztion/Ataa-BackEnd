@@ -3,6 +3,7 @@ using Application.Features.Gallery.Commands.Delete;
 using Application.Features.Gallery.Commands.Update;
 using Application.Features.Gallery.Dtos;
 using Application.Features.Gallery.Queries.GetAll;
+using Application.Features.Gallery.Queries.GetById;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Mvc;
 using Web.Api.Controllers.BaseController;
@@ -40,6 +41,13 @@ public class GalleryController : ApiBaseController
     public async Task<IActionResult> GetAllGallery([FromQuery] GalleryFilter request)
     {
         Result<List<GetGalleryDto>> result = await mediator.Send(new GetGalleryQuery(request));
+        return result.ToActionResult();
+    }
+    
+    [HttpGet(Router.GalleryRouter.GetById)]
+    public async Task<IActionResult> GetGalleryById([FromRoute] Ulid id)
+    {
+        Result<GetGalleryDto> result = await mediator.Send(new GetGalleryByIdQuery(id));
         return result.ToActionResult();
     }
     
