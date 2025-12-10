@@ -1,4 +1,5 @@
 ﻿using Application.Features.Statics.Commands.Add;
+using Application.Features.Statics.Commands.Delete;
 using Application.Features.Statics.Dtos;
 using AutoMapper;
 
@@ -17,5 +18,8 @@ public class StaticsProfile : Profile
         
         CreateMap<Domain.Models.Services.Entities.Statics, GetStaticsDto>();
         CreateMap<GetStaticsDto, Domain.Models.Services.Entities.Statics>();
+        
+        CreateMap<DeleteStaticsCommand,Domain.Models.Services.Entities.Statics>()
+            .ForMember(dest => dest.IsDeleted, opt => opt.MapFrom(src => true));
     }
 }

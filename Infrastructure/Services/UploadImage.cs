@@ -25,4 +25,19 @@ public class UploadImage(IWebHostEnvironment env) : IUploadImage
 
         return $"/{folderName}/{fileName}";
     }
+
+    public async Task DeleteFileAsync(string filePath)
+    {
+        if (string.IsNullOrEmpty(filePath))
+            return;
+
+        var relativePath = filePath.TrimStart('/');
+
+        var fullPath = Path.Combine(env.WebRootPath, relativePath);
+
+        if (File.Exists(fullPath))
+        {
+            await Task.Run(() => File.Delete(fullPath));
+        }
+    }
 }

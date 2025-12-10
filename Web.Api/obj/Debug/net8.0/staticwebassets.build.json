@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bapah2id+UAfvIME6IrJ8qVb4Gdj3tHigV1Q+sn0EjI=",
+  "Hash": "bEEkvJdINeyeLOL0EhEnLEF2lWv4MtpPFpqejbCN2bI=",
   "Source": "Web.Api",
   "BasePath": "_content/Web.Api",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Gallery\\1ef735f5-7b26-4b9e-9b8d-870fc8f5410b.JPG",
+      "SourceId": "Web.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\",
+      "BasePath": "_content/Web.Api",
+      "RelativePath": "Gallery/1ef735f5-7b26-4b9e-9b8d-870fc8f5410b.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Gallery\\1ef735f5-7b26-4b9e-9b8d-870fc8f5410b.JPG"
+    },
     {
       "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Gallery\\5a80bd88-2e6f-4140-9e31-1a9b106ed24e.jpeg",
       "SourceId": "Web.Api",
@@ -36,6 +55,25 @@
       "OriginalItemSpec": "wwwroot\\Gallery\\5a80bd88-2e6f-4140-9e31-1a9b106ed24e.jpeg"
     },
     {
+      "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Gallery\\ae27497e-5418-48e6-90f6-b1ec119e954f.jpg",
+      "SourceId": "Web.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\",
+      "BasePath": "_content/Web.Api",
+      "RelativePath": "Gallery/ae27497e-5418-48e6-90f6-b1ec119e954f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Gallery\\ae27497e-5418-48e6-90f6-b1ec119e954f.jpg"
+    },
+    {
       "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG",
       "SourceId": "Web.Api",
       "SourceType": "Discovered",
@@ -53,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG"
+    },
+    {
+      "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\b25fa76d-af51-4863-944d-398f1450ba16.png",
+      "SourceId": "Web.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\",
+      "BasePath": "_content/Web.Api",
+      "RelativePath": "News/b25fa76d-af51-4863-944d-398f1450ba16.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\News\\b25fa76d-af51-4863-944d-398f1450ba16.png"
     },
     {
       "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\79c8b96c-ef43-411a-aac0-59b2041f612f.JPG",
