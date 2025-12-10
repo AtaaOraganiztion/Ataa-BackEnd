@@ -3,6 +3,7 @@ using Application.Features.News.Commands.Delete;
 using Application.Features.News.Commands.Update;
 using Application.Features.News.Dtos;
 using Application.Features.News.Queries.GetAll;
+using Application.Features.News.Queries.GetById;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Mvc;
 using Web.Api.Controllers.BaseController;
@@ -41,6 +42,12 @@ public class NewsController : ApiBaseController
     public async Task<IActionResult> GetAllNews([FromQuery] NewsFilter request)
     {
         Result<List<GetNewsDto>> result = await mediator.Send(new GetNewsQuery(request));
+        return result.ToActionResult();
+    }
+    [HttpGet(Router.NewsRouter.GetById)]
+    public async Task<IActionResult> GetNewsById([FromRoute] Ulid id)
+    {
+        Result<GetNewsDto> result = await mediator.Send(new GetNewsByIdQuery(id));
         return result.ToActionResult();
     }
     

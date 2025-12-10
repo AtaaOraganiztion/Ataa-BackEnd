@@ -4,6 +4,7 @@ using Application.Features.Services.Commands.Delete;
 using Application.Features.Services.Commands.Update;
 using Application.Features.Services.Dtos;
 using Application.Features.Services.Queries.GetAll;
+using Application.Features.Services.Queries.GetById;
 using Domain.Routing.BaseRouter;
 using Microsoft.AspNetCore.Mvc;
 using SharedKernel;
@@ -40,6 +41,12 @@ public class ServicesController() : ApiBaseController
     public async Task<IActionResult> GetAllServices([FromQuery] ServicesFilter request)
     {
         Result<List<GetServicesDto>> result = await mediator.Send(new GetServicesQuery(request));
+        return result.ToActionResult();
+    }
+    [HttpGet(Router.ServicesRouter.GetById)]
+    public async Task<IActionResult> GetServicesById([FromRoute] Ulid id)
+    {
+        Result<GetServicesDto> result = await mediator.Send(new GetServicesByIdQuery(id));
         return result.ToActionResult();
     }
     

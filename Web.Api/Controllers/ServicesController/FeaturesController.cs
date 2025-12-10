@@ -4,6 +4,7 @@ using Application.Features.Features.Commands.Delete;
 using Application.Features.Features.Commands.Update;
 using Application.Features.Features.Dtos;
 using Application.Features.Features.Queries.GetAll;
+using Application.Features.Features.Queries.GetById;
 using Application.Features.Services.Commands.Add;
 using Application.Features.Services.Dtos;
 using Domain.Routing.BaseRouter;
@@ -42,6 +43,12 @@ public class FeaturesController : ApiBaseController
     public async Task<IActionResult> GetAllFeatures([FromQuery] FeaturesFilter request)
     {
         Result<List<GetFeaturesDto>> result = await mediator.Send(new GetFeaturesQuery(request));
+        return result.ToActionResult();
+    }
+    [HttpGet(Router.FeaturesRouter.GetById)]
+    public async Task<IActionResult> GetFeaturesById([FromRoute] Ulid id)
+    {
+        Result<GetFeaturesDto> result = await mediator.Send(new GetFeaturesByIdQuery(id));
         return result.ToActionResult();
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bEEkvJdINeyeLOL0EhEnLEF2lWv4MtpPFpqejbCN2bI=",
+  "Hash": "PZKLG/YkUHoagCYoLw0a5nhdm48iwFTm/SicMRbFy2k=",
   "Source": "Web.Api",
   "BasePath": "_content/Web.Api",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG"
     },
     {
+      "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\b1d323f3-6e85-47d2-9ea1-0fdf4f2a4217.jpg",
+      "SourceId": "Web.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\",
+      "BasePath": "_content/Web.Api",
+      "RelativePath": "News/b1d323f3-6e85-47d2-9ea1-0fdf4f2a4217.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\News\\b1d323f3-6e85-47d2-9ea1-0fdf4f2a4217.jpg"
+    },
+    {
       "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\b25fa76d-af51-4863-944d-398f1450ba16.png",
       "SourceId": "Web.Api",
       "SourceType": "Discovered",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Services\\d9e58e1f-5b49-474e-9bf5-9d5c04b0392c.jpeg"
+    },
+    {
+      "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\e6d838c9-382a-443f-a9d3-7014fcfd84b1.JPG",
+      "SourceId": "Web.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\",
+      "BasePath": "_content/Web.Api",
+      "RelativePath": "Services/e6d838c9-382a-443f-a9d3-7014fcfd84b1.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Services\\e6d838c9-382a-443f-a9d3-7014fcfd84b1.JPG"
     },
     {
       "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\ec25cb71-fd3b-4de2-9a8f-7cda7f3e62f4.JPG",

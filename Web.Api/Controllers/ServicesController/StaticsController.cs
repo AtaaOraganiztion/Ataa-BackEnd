@@ -9,6 +9,7 @@ using Application.Features.Statics.Commands.Delete;
 using Application.Features.Statics.Commands.Update;
 using Application.Features.Statics.Dtos;
 using Application.Features.Statics.Queries.GetAll;
+using Application.Features.Statics.Queries.GetById;
 using Domain.Routing.BaseRouter;
 using Microsoft.AspNetCore.Mvc;
 using SharedKernel;
@@ -45,6 +46,13 @@ public class StaticsController : ApiBaseController
     public async Task<IActionResult> GetAllStatics([FromQuery] StaticsFilter request)
     {
         Result<List<GetStaticsDto>> result = await mediator.Send(new GetStaticsQuery(request));
+        return result.ToActionResult();
+    }
+    
+    [HttpGet(Router.StaticsRouter.GetById)]
+    public async Task<IActionResult> GetStaticsById([FromRoute] Ulid id)
+    {
+        Result<GetStaticsDto> result = await mediator.Send(new GetStaticsByIdQuery(id));
         return result.ToActionResult();
     }
 }
