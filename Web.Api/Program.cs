@@ -70,11 +70,12 @@ var app = builder.Build();
 app.MapControllers();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// if (app.Environment.IsDevelopment())
+// {
+//    
+// }
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.ApplyMigrations();
 
