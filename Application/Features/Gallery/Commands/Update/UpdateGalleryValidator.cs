@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 
-namespace Application.Features.Features.Commands.Update;
+namespace Application.Features.Gallery.Commands.Update;
 
-public class UpdateGalleryValidator : AbstractValidator<UpdateFeaturesCommand>
+public class UpdateGalleryValidator : AbstractValidator<UpdateGalleryCommand>
 {
     public UpdateGalleryValidator()
     {
