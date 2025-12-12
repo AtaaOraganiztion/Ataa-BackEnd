@@ -37,4 +37,6 @@ Global
 		{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
 EndGlobal
