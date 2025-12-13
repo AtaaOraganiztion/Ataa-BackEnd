@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj": {}
+    "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj": {
+    "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj",
+        "projectUniqueName": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
         "projectName": "SharedKernel",
-        "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj",
-        "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\obj\\",
+        "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\noouh\\.nuget\\packages\\",
+        "outputPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\noouh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -75,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

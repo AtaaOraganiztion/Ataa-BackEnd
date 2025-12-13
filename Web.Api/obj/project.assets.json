@@ -7070,42 +7070,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hazem\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\noouh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Web.Api\\Web.Api.csproj",
+      "projectUniqueName": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\Web.Api.csproj",
       "projectName": "Web.Api",
-      "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Web.Api\\Web.Api.csproj",
-      "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Web.Api\\obj\\",
+      "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\Web.Api.csproj",
+      "packagesPath": "C:\\Users\\noouh\\.nuget\\packages\\",
+      "outputPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Hazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\noouh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\Application.csproj"
+            "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj": {
+              "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj"
             },
-            "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Infrastructure\\Infrastructure.csproj"
+            "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -7119,8 +7112,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -7188,7 +7180,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
