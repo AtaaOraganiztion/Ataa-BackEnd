@@ -3,7 +3,7 @@
 public record GetServicesDto(
     Ulid? Id,
     string? Title,
-    string? ShortDesc, 
+    string? ShortDesc,
     string? LongDesc,
     string? MainImage
     );

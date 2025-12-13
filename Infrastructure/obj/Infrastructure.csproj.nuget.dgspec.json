@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\Application.csproj": {
+    "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj"
+              "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -64,6 +64,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[15.1.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -93,9 +97,17 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[4.3.1-dev-02395, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
             }
           },
           "imports": [
@@ -118,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj": {
+    "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -146,8 +158,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -193,14 +205,14 @@
         }
       }
     },
-    "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -221,14 +233,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\Application.csproj"
+              "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Application\\Application.csproj"
               },
-              "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj"
+              "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -310,14 +322,14 @@
         }
       }
     },
-    "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj": {
+    "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj",
         "projectName": "SharedKernel",
-        "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj",
+        "projectPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj",
         "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\obj\\",
+        "outputPath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
