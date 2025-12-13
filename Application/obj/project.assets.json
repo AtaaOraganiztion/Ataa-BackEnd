@@ -2449,35 +2449,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\noouh\\.nuget\\packages\\": {}
+    "C:\\Users\\Hazem\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\noouh\\.nuget\\packages\\",
-      "outputPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\obj\\",
+      "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Hazem\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\noouh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Hazem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj"
+            "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\Domain\\Domain.csproj"
             },
-            "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
-              "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj"
+            "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj": {
+              "projectPath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj"
             }
           }
         }
@@ -2491,7 +2498,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2554,7 +2562,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
