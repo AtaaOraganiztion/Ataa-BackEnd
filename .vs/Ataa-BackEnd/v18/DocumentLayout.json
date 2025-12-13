@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\New folder (2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\desktop\\new folder (2)\\web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\desktop\\new folder (2)\\application\\features\\authentication\\commands\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\features\\authentication\\commands\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\desktop\\new folder (2)\\application\\features\\authentication\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\features\\authentication\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\desktop\\new folder (2)\\application\\abstractions\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\abstractions\\authentication\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\desktop\\new folder (2)\\web.api\\controllers\\authcontroller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\controllers\\authcontroller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|c:\\users\\pc\\desktop\\new folder (2)\\domain\\identities\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|solutionrelative:domain\\identities\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\desktop\\new folder (2)\\application\\features\\services\\dtos\\getservicesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\features\\services\\dtos\\getservicesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\desktop\\new folder (2)\\application\\features\\authentication\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\features\\authentication\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\desktop\\new folder (2)\\infrastructure\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\desktop\\new folder (2)\\application\\abstractions\\authentication\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\abstractions\\authentication\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\desktop\\new folder (2)\\application\\abstractions\\authentication\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\abstractions\\authentication\\ipermissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\desktop\\new folder (2)\\web.api\\web.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\web.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\desktop\\new folder (2)\\infrastructure\\authentication\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\authentication\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\desktop\\new folder (2)\\web.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Infrastructure\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Infrastructure\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAQAAAAAAAlwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:41:07.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "RelativeToolTip": "Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAMzMzMzMLwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:35:54.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Authentication\\Commands\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Authentication\\Commands\\AuthService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Authentication\\Commands\\AuthService.cs",
+              "RelativeToolTip": "Application\\Features\\Authentication\\Commands\\AuthService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:31:15.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Abstractions\\Authentication\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Authentication\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Abstractions\\Authentication\\IAuthService.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Authentication\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:29:02.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Authentication\\Dtos\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Authentication\\Dtos\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Authentication\\Dtos\\LoginRequestDto.cs",
+              "RelativeToolTip": "Application\\Features\\Authentication\\Dtos\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:29:46.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Web.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\appsettings.json",
+              "RelativeToolTip": "Web.Api\\appsettings.json",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T14:30:45.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Abstractions\\Authentication\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Authentication\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Abstractions\\Authentication\\IUserRepository.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Authentication\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:28:31.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Authentication\\Dtos\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Authentication\\Dtos\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Authentication\\Dtos\\AuthResponseDto.cs",
+              "RelativeToolTip": "Application\\Features\\Authentication\\Dtos\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:30:40.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Domain\\Identities\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Identities\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Domain\\Identities\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Identities\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:26:39.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Abstractions\\Authentication\\IPermissionService.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Authentication\\IPermissionService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Abstractions\\Authentication\\IPermissionService.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Authentication\\IPermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:05:33.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetServicesDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Services\\Dtos\\GetServicesDto.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Services\\Dtos\\GetServicesDto.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Application\\Features\\Services\\Dtos\\GetServicesDto.cs",
+              "RelativeToolTip": "Application\\Features\\Services\\Dtos\\GetServicesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T14:36:59.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Infrastructure\\Authentication\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Authentication\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Infrastructure\\Authentication\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Authentication\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAhwBAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:34:47.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Web.Api\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\DependencyInjection.cs",
+              "RelativeToolTip": "Web.Api\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:36:10.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.Api",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\Web.Api.csproj",
+              "RelativeDocumentMoniker": "Web.Api\\Web.Api.csproj",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\New folder (2)\\Web.Api\\Web.Api.csproj",
+              "RelativeToolTip": "Web.Api\\Web.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-13T03:51:07.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
