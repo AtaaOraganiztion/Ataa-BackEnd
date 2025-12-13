@@ -17,6 +17,9 @@ public class DeleteGalleryCommandHandler(IRepository<Domain.Models.Services.Enti
             return Result.Failure<Ulid>(Error.NotFound(ServicesMessageKeys.GalleryNotFound));
         }
 
+        
+        
+        
         await repository.DeleteAsync(gallery, cancellationToken);
         return Result.Success(gallery.Id);
     }
