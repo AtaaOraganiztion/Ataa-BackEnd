@@ -1,3 +1,6 @@
+using Application.Abstractions;
+using Application.Features.Authentication.Commands;
+using Infrastructure.Authentication;
 using Web.Api.Infrastructure;
 
 namespace Web.Api;
@@ -9,6 +12,8 @@ public static class DependencyInjection
         services.AddEndpointsApiExplorer();
         services.AddExceptionHandler<GlobalExceptionHandler>();
         services.AddProblemDetails();
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IAuthService, AuthService>();
 
         return services;
     }

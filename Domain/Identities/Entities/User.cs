@@ -5,16 +5,11 @@ namespace Domain.Identities.Entities;
 
 public class User : IdentityUser<Ulid>
 {
-    public string Name { get; set; } = null!;
-
-    public string? ProfileImage { get; set; }
-
-    public string? FcmToken { get; set; }
-
-    public DateTime LastLoginDate { get; set; }
-
-    public DateTime RegistrationDate { get; set; }
-    
+    public Guid Id { get; set; }
+    public string Email { get; set; } = string.Empty;
+    public string PasswordHash { get; set; } = string.Empty;
+    public string Name { get; set; } = string.Empty;
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     // Navigation properties
     [NavigationalProperty] 
     public virtual ICollection<UserDevice> UserDevices { get; set; } = null!;

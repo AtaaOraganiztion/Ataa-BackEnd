@@ -37,3 +37,29 @@ D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel
 D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\refint\SharedKernel.dll
 D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.pdb
 D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\ref\SharedKernel.dll
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\bin\Debug\net8.0\SharedKernel.deps.json
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\bin\Debug\net8.0\SharedKernel.dll
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\bin\Debug\net8.0\SharedKernel.pdb
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.AssemblyInfo.cs
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.sourcelink.json
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.dll
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\refint\SharedKernel.dll
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.pdb
+C:\Users\PC\Desktop\New folder (2)\SharedKernel\obj\Debug\net8.0\ref\SharedKernel.dll
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.dll
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\refint\SharedKernel.dll
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.pdb
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\bin\Debug\net8.0\SharedKernel.deps.json
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\bin\Debug\net8.0\SharedKernel.dll
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\bin\Debug\net8.0\SharedKernel.pdb
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.csproj.AssemblyReference.cache
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.AssemblyInfoInputs.cache
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.AssemblyInfo.cs
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\SharedKernel.sourcelink.json
+C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\SharedKernel\obj\Debug\net8.0\ref\SharedKernel.dll
