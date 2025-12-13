@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gP9La+cAWsc=",
+  "dgSpecHash": "rM4lY/GQCVo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hazem\\Desktop\\ATaa Back auth\\SharedKernel\\SharedKernel.csproj",
+  "projectFilePath": "C:\\Users\\Hazem\\Downloads\\New folder (2)-20251213T141811Z-1-001\\New folder (2)\\SharedKernel\\SharedKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hazem\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Hazem\\.nuget\\packages\\ulid\\1.4.1\\ulid.1.4.1.nupkg.sha512"
