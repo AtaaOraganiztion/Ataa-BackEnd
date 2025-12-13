@@ -430,3 +430,14 @@ Web.Api/wwwroot/*
 **/bin/Debug/net8.0/
 **/obj/
 **/*.dll
+# .NET
+bin/
+obj/
+
+# Rider / IntelliJ
+.idea/
+**/rider.project.*
+
+# Build caches
+**/*.cache
+**/*.AssemblyInfo.cs
