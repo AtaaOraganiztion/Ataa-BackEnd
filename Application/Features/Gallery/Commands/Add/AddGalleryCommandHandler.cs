@@ -18,6 +18,9 @@ public class AddGalleryCommandHandler(IMapper mapper, IRepository<Domain.Models.
             var relativePath = await uploadImage.SaveFileAsync(request.Image, "Gallery");
             gallery.ImageUrl = relativePath;
         }
+        
+        
+        
         await repository.AddAsync(gallery, cancellationToken);
         return Result.Success(gallery.Id);
     }

@@ -957,3 +957,4 @@ C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\We
 C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\Web.Api\obj\Debug\net8.0\Web.Api.csproj.Up2Date
 C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\Web.Api\obj\Debug\net8.0\Web.Api.genruntimeconfig.cache
 C:\Users\Hazem\Downloads\New folder (2)-20251213T141811Z-1-001\New folder (2)\Web.Api\obj\Debug\net8.0\ref\Web.Api.dll
+D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\Web.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
