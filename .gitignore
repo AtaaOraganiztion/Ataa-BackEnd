@@ -427,6 +427,14 @@ Web.Api/logs/*
 Web.Api/wwwroot/*
 
 # Ignore .NET build outputs and compiled libraries
-**/bin/Debug/net8.0/
-**/obj/
-**/*.dll
+# .NET build
+bin/
+obj/
+
+# Rider / IntelliJ
+.idea/
+**/rider.project.*
+**/*.nuget.info
+
+# Caches
+**/*.cache
