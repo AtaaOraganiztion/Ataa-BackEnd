@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Gallery\\1ef735f5-7b26-4b9e-9b8d-870fc8f5410b.JPG",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\Gallery\\1ef735f5-7b26-4b9e-9b8d-870fc8f5410b.JPG",
       "PackagePath": "staticwebassets\\Gallery\\1ef735f5-7b26-4b9e-9b8d-870fc8f5410b.JPG"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Gallery\\5a80bd88-2e6f-4140-9e31-1a9b106ed24e.jpeg",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\Gallery\\5a80bd88-2e6f-4140-9e31-1a9b106ed24e.jpeg",
       "PackagePath": "staticwebassets\\Gallery\\5a80bd88-2e6f-4140-9e31-1a9b106ed24e.jpeg"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Gallery\\ae27497e-5418-48e6-90f6-b1ec119e954f.jpg",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\Gallery\\ae27497e-5418-48e6-90f6-b1ec119e954f.jpg",
       "PackagePath": "staticwebassets\\Gallery\\ae27497e-5418-48e6-90f6-b1ec119e954f.jpg"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG",
       "PackagePath": "staticwebassets\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\b1d323f3-6e85-47d2-9ea1-0fdf4f2a4217.jpg",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\News\\b1d323f3-6e85-47d2-9ea1-0fdf4f2a4217.jpg",
       "PackagePath": "staticwebassets\\News\\b1d323f3-6e85-47d2-9ea1-0fdf4f2a4217.jpg"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\b25fa76d-af51-4863-944d-398f1450ba16.png",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\News\\b25fa76d-af51-4863-944d-398f1450ba16.png",
       "PackagePath": "staticwebassets\\News\\b25fa76d-af51-4863-944d-398f1450ba16.png"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\79c8b96c-ef43-411a-aac0-59b2041f612f.JPG",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\Services\\79c8b96c-ef43-411a-aac0-59b2041f612f.JPG",
       "PackagePath": "staticwebassets\\Services\\79c8b96c-ef43-411a-aac0-59b2041f612f.JPG"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\d9e58e1f-5b49-474e-9bf5-9d5c04b0392c.jpeg",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\Services\\d9e58e1f-5b49-474e-9bf5-9d5c04b0392c.jpeg",
       "PackagePath": "staticwebassets\\Services\\d9e58e1f-5b49-474e-9bf5-9d5c04b0392c.jpeg"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\e6d838c9-382a-443f-a9d3-7014fcfd84b1.JPG",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\Services\\e6d838c9-382a-443f-a9d3-7014fcfd84b1.JPG",
       "PackagePath": "staticwebassets\\Services\\e6d838c9-382a-443f-a9d3-7014fcfd84b1.JPG"
     },
     {
-      "Id": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\Services\\ec25cb71-fd3b-4de2-9a8f-7cda7f3e62f4.JPG",
+      "Id": "C:\\Users\\PC\\Desktop\\Ataa\\Web.Api\\wwwroot\\Services\\ec25cb71-fd3b-4de2-9a8f-7cda7f3e62f4.JPG",
       "PackagePath": "staticwebassets\\Services\\ec25cb71-fd3b-4de2-9a8f-7cda7f3e62f4.JPG"
     },
     {

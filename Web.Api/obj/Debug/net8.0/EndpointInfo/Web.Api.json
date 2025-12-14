@@ -394,6 +394,18 @@
         }
       }
     },
+    "/health": {
+      "get": {
+        "tags": [
+          "HealthCheck"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Api/V1/News/Add": {
       "post": {
         "tags": [
