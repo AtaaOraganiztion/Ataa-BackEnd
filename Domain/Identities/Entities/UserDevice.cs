@@ -19,7 +19,7 @@ public class UserDevice : Entity, IAuditableEntity
     public string IpAddress { get; set; } = null!;
 
     // Navigation property
-    public User User { get; set; } = null!;
+    public virtual User User { get; set; } = null!;
     public Ulid CreatedBy { get; set; }
     public DateTime CreatedOnUtc { get; set; }
     public Ulid LastModifiedBy { get; set; }

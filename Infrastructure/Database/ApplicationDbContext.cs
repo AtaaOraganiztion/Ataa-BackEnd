@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using SharedKernel;
 using System.Linq.Expressions;
-using System.Reflection.Emit;
 
 namespace Infrastructure.Database;
 
@@ -14,11 +13,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
-
     {
 
-
-        builder.ApplyConfiguration(new UserConfiguration());
         base.OnModelCreating(builder);
         builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
 
