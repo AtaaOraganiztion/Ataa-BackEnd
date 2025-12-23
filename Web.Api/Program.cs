@@ -68,10 +68,7 @@ builder.Services.AddSwaggerGen(
     });
 
 var app = builder.Build();
-app.UseForwardedHeaders(new ForwardedHeadersOptions
-{
-    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
-});
+
 app.MapControllers();
 
 // Configure the HTTP request pipeline.
