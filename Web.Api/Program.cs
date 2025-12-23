@@ -66,12 +66,14 @@ builder.Services.AddSwaggerGen(
         // Add this to treat Ulid as string in Swagger
         options.MapType<Ulid>(() => new OpenApiSchema { Type = "string", Format = "ulid" });
     });
-
-var app = builder.Build();
-app.UseForwardedHeaders(new ForwardedHeadersOptions
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
 {
-    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
-});
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+    options.KnownNetworks.Clear();
+    options.KnownProxies.Clear();
+})
+var app = builder.Build();
+app.UseForwardedHeaders();
 app.MapControllers();
 
 
