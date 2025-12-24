@@ -202,6 +202,91 @@ namespace Infrastructure.Database.Migrations
                     b.ToTable("user_device", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Models.ContactForm.Entities.ContactForm", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("id");
+
+                    b.Property<string>("CreatedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("created_by");
+
+                    b.Property<DateTime>("CreatedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_on_utc");
+
+                    b.Property<DateTime>("DeletedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("deleted_on_utc");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("email");
+
+                    b.Property<string>("EntityName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("entity_name");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<string>("LastModifiedBy")
+                        .IsRequired()
+                        .HasMaxLength(26)
+                        .HasColumnType("nvarchar(26)")
+                        .HasColumnName("last_modified_by");
+
+                    b.Property<DateTime>("LastModifiedOnUtc")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("last_modified_on_utc");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("message");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("name");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("phone");
+
+                    b.Property<int>("RequestType")
+                        .HasColumnType("int")
+                        .HasColumnName("request_type");
+
+                    b.HasKey("Id")
+                        .HasName("pk_contact_form");
+
+                    b.HasIndex("Email")
+                        .HasDatabaseName("ix_contact_form_email");
+
+                    b.HasIndex("EntityName")
+                        .HasDatabaseName("ix_contact_form_entity_name");
+
+                    b.HasIndex("Name")
+                        .HasDatabaseName("ix_contact_form_name");
+
+                    b.HasIndex("Phone")
+                        .HasDatabaseName("ix_contact_form_phone");
+
+                    b.HasIndex("RequestType")
+                        .HasDatabaseName("ix_contact_form_request_type");
+
+                    b.ToTable("ContactForm", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Models.News.Entities.News", b =>
                 {
                     b.Property<string>("Id")
