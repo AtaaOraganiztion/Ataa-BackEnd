@@ -1,7 +1,10 @@
 using System.Text.Json.Serialization;
 using Application;
+using Application.Abstractions.Services;
 using Infrastructure;
 using Infrastructure.Converters;
+using Infrastructure.Services;
+using Infrastructure.Settings;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Web.Api;
@@ -28,7 +31,10 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
         .AllowAnyMethod()));
 
 builder.Services.AddHttpContextAccessor();
-
+var configuration = builder.Configuration;
+var mailSetting = configuration.GetSection("MailSetting").Get<MailSetting>();
+builder.Services.AddSingleton(mailSetting);
+builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services
     .AddApplication()
     .AddPresentation()

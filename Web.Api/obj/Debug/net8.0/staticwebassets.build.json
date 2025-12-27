@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PZKLG/YkUHoagCYoLw0a5nhdm48iwFTm/SicMRbFy2k=",
+  "Hash": "GbrUPraZe5JLc+0bikgQ0Ru/pcciglnT+tYrz232H+A=",
   "Source": "Web.Api",
   "BasePath": "_content/Web.Api",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Gallery\\ae27497e-5418-48e6-90f6-b1ec119e954f.jpg"
+    },
+    {
+      "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\HtmlTemplates\\Form.html",
+      "SourceId": "Web.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\",
+      "BasePath": "_content/Web.Api",
+      "RelativePath": "HtmlTemplates/Form.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HtmlTemplates\\Form.html"
     },
     {
       "Identity": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Web.Api\\wwwroot\\News\\9939a59a-10cf-4172-860a-a95b8d5a0d03.JPG",
