@@ -12,7 +12,10 @@ using Web.Api.Extensions;
 using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(7096); // HTTP
+});
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
