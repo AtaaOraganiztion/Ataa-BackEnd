@@ -1,4 +1,5 @@
 ﻿
+using Application.Abstractions.Services;
 using Application.Features.ContactForm.Commands.Add;
 using Application.Features.ContactForm.Commands.Delete;
 using Application.Features.ContactForm.Commands.Update;
@@ -13,12 +14,13 @@ using Web.Api.Extensions;
 
 namespace Web.Api.Controllers.ContactForm;
 
-public class ContactFormController : ApiBaseController
+public class ContactFormController(IEmailService emailService) : ApiBaseController
 {
     [HttpPost(Router.ContactForm.Add)]
     public async Task<IActionResult> AddContactForm([FromQuery]AddContactFormCommand request)
     {
         Result<Ulid> result = await mediator.Send(request);
+        
         return result.ToCreatedActionResult();
     }
     
