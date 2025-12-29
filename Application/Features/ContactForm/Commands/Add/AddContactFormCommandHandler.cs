@@ -24,7 +24,7 @@ public class AddContactFormCommandHandler(IMapper mapper, IRepository<Domain.Mod
             RequestType:request.RequestType,
             Phone: request.Phone,
             EntityName:request.EntityName,
-            ToEmailAddress: "noouhehab1@gmail.com"
+            ToEmailAddress: "Info@alataa.sa"
             
         );
         var requestTypeArabic = request.RequestType.GetDescription();
