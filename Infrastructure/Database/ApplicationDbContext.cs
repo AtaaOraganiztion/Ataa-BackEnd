@@ -1,14 +1,17 @@
-﻿using System.Linq.Expressions;
+﻿using Domain.Identities.Entities;
 using Infrastructure.Conventions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using SharedKernel;
+using System.Linq.Expressions;
 
 namespace Infrastructure.Database;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
     : DbContext(options)
 {
+    public DbSet<User> Users { get; set; }  // ✅ صح!
+
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
@@ -23,7 +26,6 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
                 MemberExpression property = Expression.Property(parameter, nameof(ISoftDeletableEntity.IsDeleted));
                 LambdaExpression filter =
                     Expression.Lambda(Expression.Equal(property, Expression.Constant(false)), parameter);
-
                 builder.Entity(entityType.ClrType).HasQueryFilter(filter);
             }
         }
@@ -34,5 +36,4 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         base.ConfigureConventions(configurationBuilder);
         configurationBuilder.AddUlidConvention();
     }
-    
 }

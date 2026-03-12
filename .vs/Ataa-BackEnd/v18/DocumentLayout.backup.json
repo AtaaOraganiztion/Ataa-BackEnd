@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\web.api\\controllers\\authcontroller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\controllers\\authcontroller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\domain\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|solutionrelative:domain\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\web.api\\web.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\web.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\infrastructure\\settings\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\settings\\jwtsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\infrastructure\\settings\\mailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\settings\\mailsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\infrastructure\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\web.api\\controllers\\productcontroller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\controllers\\productcontroller\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\domain\\identities\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|solutionrelative:domain\\identities\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\infrastructure\\authentication\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A19D00-1660-4CA5-BCF2-2C7C7FF4213C}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\authentication\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\application\\abstractions\\authentication\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D586F9-DFCD-4650-AB7C-E821A0A46FFB}|Application\\Application.csproj|solutionrelative:application\\abstractions\\authentication\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\domain\\models\\opinions\\entities\\opinions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|solutionrelative:domain\\models\\opinions\\entities\\opinions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37268F72-6AD9-4503-AB4E-0FC5DCD82251}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|c:\\users\\pc\\source\\repos\\ataa-backend\\web.api\\middleware\\requestcontextloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4350F0D-24AA-4349-9E9C-BAFA7EC173C1}|Web.Api\\Web.Api.csproj|solutionrelative:web.api\\middleware\\requestcontextloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Domain\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:55:47.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Program.cs",
+              "RelativeToolTip": "Web.Api\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:51:02.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "RelativeToolTip": "Web.Api\\Controllers\\AuthController\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:23:50.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Web.Api.csproj",
+              "RelativeDocumentMoniker": "Web.Api\\Web.Api.csproj",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Web.Api.csproj",
+              "RelativeToolTip": "Web.Api\\Web.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T01:44:55.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Web.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\appsettings.json",
+              "RelativeToolTip": "Web.Api\\appsettings.json",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T23:47:27.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T01:35:11.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JWTSettings.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Identities\\JWTSettings.cs",
+              "RelativeDocumentMoniker": "Domain\\Identities\\JWTSettings.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Identities\\JWTSettings.cs",
+              "RelativeToolTip": "Domain\\Identities\\JWTSettings.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:05:57.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:58:33.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MailSetting.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Settings\\MailSetting.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Settings\\MailSetting.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Settings\\MailSetting.cs",
+              "RelativeToolTip": "Infrastructure\\Settings\\MailSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T02:04:07.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtSetting.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Settings\\JwtSetting.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Settings\\JwtSetting.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Settings\\JwtSetting.cs",
+              "RelativeToolTip": "Infrastructure\\Settings\\JwtSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T02:04:09.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Authentication\\TokenService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Authentication\\TokenService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Authentication\\TokenService.cs",
+              "RelativeToolTip": "Infrastructure\\Authentication\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:14:14.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Opinions.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Models\\Opinions\\Entities\\Opinions.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Opinions\\Entities\\Opinions.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Models\\Opinions\\Entities\\Opinions.cs",
+              "RelativeToolTip": "Domain\\Models\\Opinions\\Entities\\Opinions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T01:38:24.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Controllers\\ProductController\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Controllers\\ProductController\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Controllers\\ProductController\\ProductsController.cs",
+              "RelativeToolTip": "Web.Api\\Controllers\\ProductController\\ProductsController.cs",
+              "ViewState": "AgIAAAsAAABgZmZmZuY3wBEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:25:59.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "RelativeToolTip": "Application\\Abstractions\\Authentication\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T00:13:16.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-09T00:19:20.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RequestContextLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Middleware\\RequestContextLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Web.Api\\Middleware\\RequestContextLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Web.Api\\Middleware\\RequestContextLoggingMiddleware.cs",
+              "RelativeToolTip": "Web.Api\\Middleware\\RequestContextLoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T23:47:24.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

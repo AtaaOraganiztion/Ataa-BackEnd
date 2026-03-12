@@ -37,3 +37,16 @@ D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel
 D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\refint\SharedKernel.dll
 D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.pdb
 D:\BootCamp\Ataa-BackEnd\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\ref\SharedKernel.dll
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\bin\Debug\net8.0\SharedKernel.deps.json
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\bin\Debug\net8.0\SharedKernel.dll
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\bin\Debug\net8.0\SharedKernel.pdb
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.AssemblyInfo.cs
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.sourcelink.json
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.dll
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\refint\SharedKernel.dll
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\SharedKernel.pdb
+C:\Users\PC\source\repos\Ataa-BackEnd\SharedKernel\obj\Debug\net8.0\ref\SharedKernel.dll

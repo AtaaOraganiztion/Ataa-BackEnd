@@ -1,36 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj": {
+    "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\noouh\\.nuget\\packages\\",
-        "outputPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\noouh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj"
+              "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj"
               },
-              "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -44,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -107,34 +115,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj": {
+    "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\noouh\\.nuget\\packages\\",
-        "outputPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\noouh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -148,7 +163,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -175,40 +191,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\noouh\\.nuget\\packages\\",
-        "outputPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\noouh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj": {
-                "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Application\\Application.csproj"
+              "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Application\\Application.csproj"
               },
-              "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\Domain\\Domain.csproj"
+              "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\Domain\\Domain.csproj"
               },
-              "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj"
+              "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj"
               }
             }
           }
@@ -222,7 +245,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -256,9 +280,25 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0, )"
             },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
               "target": "Package",
@@ -285,26 +325,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
+    "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
         "projectName": "SharedKernel",
-        "projectPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
-        "packagesPath": "C:\\Users\\noouh\\.nuget\\packages\\",
-        "outputPath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\obj\\",
+        "projectPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\noouh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -322,7 +369,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -353,7 +401,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

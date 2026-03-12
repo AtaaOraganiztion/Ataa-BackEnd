@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Iv47XVq2vyE=",
+  "dgSpecHash": "CCD8rSM40EI=",
   "success": true,
-  "projectFilePath": "D:\\BootCamp\\Ataa-BackEnd\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\Ataa-BackEnd\\SharedKernel\\SharedKernel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\noouh\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\noouh\\.nuget\\packages\\ulid\\1.4.1\\ulid.1.4.1.nupkg.sha512"
+    "C:\\Users\\PC\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\ulid\\1.4.1\\ulid.1.4.1.nupkg.sha512"
   ],
   "logs": []
 }
